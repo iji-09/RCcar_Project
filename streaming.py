@@ -98,21 +98,6 @@ def detect_edges_and_slope_30_80(frame):
     # full_mask를 3채널(RGB)로 변환
     full_mask = cv2.cvtColor(full_mask, cv2.COLOR_GRAY2BGR)
 
-    # if b_daepyo is not None:
-    #     cv2.line(full_mask, (int(b_daepyo[0]), int(b_daepyo[1])), (int(b_daepyo[2]), int(b_daepyo[3])), (0, 255, 0), 2)  # ROI 시작 y 표시
-    # if t_daepyo is not None:
-    #     cv2.line(full_mask, (int(t_daepyo[0]), int(t_daepyo[1])), (int(t_daepyo[2]), int(t_daepyo[3])), (0, 255, 0), 2)
-
-    # if lines is not None:
-    #     for l in lines:
-    #         x1, y1, x2, y2 = l[0]
-    #         cv2.line(full_mask, (x1, y1), (x2, y2), (0, 0, 255), 2)
-    #         if x2 != x1:
-    #             m = (y2 - y1) / (x2 - x1)
-    #             slopes.append(m)
-    #         else:
-    #             slopes.append(np.inf)
-
     return full_mask, b_daepyo, t_daepyo
 
 # Picamera2 설정 & 워밍업
