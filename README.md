@@ -139,6 +139,4 @@ Pi (Python)                         Arduino (C++)
 ---
 
 ##  수동 모드 동작 영상
-<video src="./video.mp4" controls style="max-width:100%; height:auto;">
-  이 브라우저는 <code>video</code> 태그를 지원하지 않습니다.
-</video>
+[![수동 모드 동작 영상 썸네일](https://img.youtube.com/vi/-j2qshY9Nfc/hqdefault.jpg)](https://youtube.com/shorts/-j2qshY9Nfc?feature=share)
